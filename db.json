@@ -1,0 +1,41 @@
+{
+    "posts":[
+        {
+          "id": 1,
+          "title": "The Joy of Reading ",
+          "description": "Immerse yourself in the world of literature with our curated collection of timeless classics and contemporary masterpieces. From gripping adventures to poignant love stories, there's something for every reader to enjoy.",
+          "likes_count": 205
+        },
+        {
+          "id": 2,
+          "title": "Exploring the Universe",
+          "description": "Embark on a journey through the cosmos and unlock the mysteries of the universe. Delve into the wonders of space exploration, from distant galaxies to the search for extraterrestrial life.",
+          "likes_count": 240
+        },
+        {
+          "id": 3,
+          "title": "Artistic Inspiration",
+          "description": "Discover the beauty of art in all its forms. From breathtaking paintings to stunning sculptures, let your imagination soar as you explore the rich tapestry of human creativity.",
+          "likes_count": 180
+        },
+        {
+          "id": 4,
+          "title": "Culinary Delights",
+          "description": "Savor the flavors of the world with our culinary adventures. From mouthwatering recipes to culinary traditions from every corner of the globe, prepare to indulge your senses.",
+          "likes_count": 300
+        },
+        {
+          "id": 5,
+          "title": "Fitness Journey",
+          "description": "Embark on a transformative fitness journey and unlock your full potential. Whether you're a beginner or a seasoned athlete, our expert guidance will help you reach your goals.",
+          "likes_count": 280
+        },
+        {
+          "id": 6,
+          "title": "Mindfulness Meditation",
+          "description": "Find peace and serenity in the chaos of modern life with mindfulness meditation. Learn to cultivate awareness, reduce stress, and live with greater presence and intention.",
+          "likes_count": 210
+        }
+      ]
+      
+}
