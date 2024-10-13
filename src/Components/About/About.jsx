@@ -4,16 +4,16 @@ import { MdCheckCircle, MdMoreTime } from "react-icons/md";
 
 const About = () => {
   return (
-    <div>
+    <div >
       <div className="hero  min-h-screen">
         <div className="hero-content flex-col lg:flex-row">
-          <div className="w-1/2">
+          <div className="md:w-1/2">
           <img
             src="./Images/Digital market.png"
-            className=" rounded-lg shadow-md  p-10"
+            className=" rounded-lg shadow-sm  p-10"
           />
           </div>
-          <div className="w-1/2 px-6">
+          <div className="md:w-1/2 px-6">
           <h3>About me</h3>
             <h1 className="text-4xl font-bold">I Can marketing any Social media Profile</h1>
             <p className="py-6">
@@ -21,6 +21,7 @@ const About = () => {
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
               et a id nisi.
             </p>
+            {/* Icon and projects complete */}
             <div className="flex justify-between mb-4">
                 <div className="flex gap-2 items-center">
                     <div className="bg-orange-100 p-1 rounded">
@@ -44,12 +45,12 @@ const About = () => {
                 </div>
             </div>
             {/* list */}
-            <div className="flex justify-between mb-4">
-                <div>
+            <div className="flex flex-col md:flex-row justify-between gap-2 md:gap-0 mb-4">
+                <div className="space-y-2">
                     <h2 className="flex items-center gap-1 "><FaRegCheckSquare className="text-orange-600"/>Digital marketing</h2>
                     <h2 className="flex items-center gap-1 "><FaRegCheckSquare className="text-orange-600"/>Social media account manager</h2>
                 </div>
-                <div>
+                <div className="space-y-2">
                     <h2 className="flex items-center gap-1 "><FaRegCheckSquare className="text-orange-600"/>On Page SEO</h2>
                     <h2 className="flex items-center gap-1 "><FaRegCheckSquare className="text-orange-600"/>Off Page SEO</h2>
                 </div>
