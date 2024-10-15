@@ -55,7 +55,7 @@ const About = () => {
                     <h2 className="flex items-center gap-1 "><FaRegCheckSquare className="text-orange-600"/>Off Page SEO</h2>
                 </div>
             </div>
-            <button className="btn btn-primary">Get Started</button>
+            <button className=" btn self-center px-4 py-2 text-lg rounded focus:ring hover:ring hover:bg-violet-400 focus:ri bg-violet-400  focus:ri hover:ri">Get Started</button>
           </div>
         </div>
       </div>

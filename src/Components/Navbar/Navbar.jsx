@@ -19,6 +19,7 @@ const Navbar = () => {
       title:'Services',
       path:'/services'
     },
+   
     {title:'Resume', path:'/resume'}, {title:'Portfolio', path:'/portfolio'}, {title:'Blog', path:'/blog'}
   ]
 ;
@@ -59,7 +60,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="px-3 py-2 rounded-md bg-green-700 text-white cursor-pointer">Contact Us</a>
+          <a className="px-3 py-2 rounded-md bg-violet-400 text-white cursor-pointer">Contact Us</a>
         </div>
       </div>
     </div>

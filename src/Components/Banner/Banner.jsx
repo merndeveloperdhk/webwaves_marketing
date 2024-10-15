@@ -20,11 +20,11 @@ const Banner = () => {
             </p>
             
             <div className="flex gap-2"> 
-            <a className="bg-green-700 px-3 py-1 rounded-md text-white flex gap-1 items-center" href="./Images/Cv.jpg" download>
+            <a className="bg-violet-400 px-3 py-1 rounded-md text-white flex gap-1 items-center" href="./Images/Cv.jpg" download>
               <h1><FaDownload /></h1>
                Download my CV
                </a>
-            <a className="bg-green-700 px-3 py-1 rounded-md text-white flex gap-1 items-center" href="https://github.com/merndeveloperdhk/webwaves_marketing" target="_blank" >
+            <a className="bg-violet-400 px-3 py-1 rounded-md text-white flex gap-1 items-center" href="https://github.com/merndeveloperdhk/webwaves_marketing" target="_blank" >
               
                Github link
                </a>
